@@ -13,7 +13,6 @@ const Portfolio = () => {
       <div className='portfoliocontent'>
         <img src={image1}/>
         <div className='portfoliotext'> 
-        <div className='text'><p>Todo App</p></div>
         </div>
       </div>
      </div>
