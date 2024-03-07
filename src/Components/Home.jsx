@@ -8,14 +8,14 @@ import Navbar from './Navbar';
 
 const Home = () => {
   return (<>
-   <div className='maincontainer'>
-    <Navbar/>
-     <Header/> 
-      <About/>
-      <Portfolio/>
-      <Contact/>
-      </div>
-      </>)
+    <div className='maincontainer'>
+      <Navbar />
+      <Header />
+      <About />
+      <Portfolio />
+      <Contact />
+    </div>
+  </>)
 }
 
 export default Home;

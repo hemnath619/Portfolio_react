@@ -7,14 +7,14 @@ const Portfolio = () => {
   
   return (<>
 
-     <div id ="port" className='portfoliohead'><p>PROTFOLIO</p></div>
+     <div id ="port"  className='portmain'>
 
-     <div className='portfoliocontainer'> 
+     <div className='portfoliohead'><p>PROTFOLIO</p></div>
+
       <div className='portfoliocontent'>
         <img src={image1}/>
-        <div className='portfoliotext'> 
-        </div>
       </div>
+
      </div>
 
 </>)

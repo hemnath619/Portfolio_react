@@ -19,10 +19,10 @@ const Contact = () => {
       </div>
 
       <div className='icons'>
-       <div ><FaLinkedin className='linkedin icon' /></div>
-       <div ><FaInstagramSquare className='insta icon'/></div>
-       <div ><FaWhatsappSquare className='whatsapp icon' /></div>
-       <div ><VscGithub className='github icon' /></div>
+       <div ><a href='https://www.linkedin.com/in/n-hemnath-40383518a' target='blank'><FaLinkedin className='linkedin icon' /></a></div>
+       <div ><a href="https://www.instagram.com/_silent_eyez___?igsh=Zmp0Nm52aGtwMHpm" target='blank'><FaInstagramSquare className='insta icon'/></a></div>
+       <div ><a href='https://wa.me/qr/JGDTZJUGMZA5H1' target='blank'><FaWhatsappSquare className='whatsapp icon' /></a></div>
+       <div ><a href = "https://github.com/hemnath619" target='blank'><VscGithub className='github icon'/></a></div>
       </div>
 
       <div id="head" className='gotop'>
