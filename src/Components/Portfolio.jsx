@@ -13,7 +13,7 @@ const Portfolio = () => {
 
       <div className='portfoliocontent'>
         <img src={image1}/>
-        <p className='text'>Todo App<br/>This Todo App is my first project in which a User is signedin first and 
+        <p className='text'><p className='texthead'>Todo App</p>This Todo App is my first project in which a User is signedin first and 
         those users data is hashed in MongoDb for data security and can Log into the web app using username and password. 
         Once the User is Logged in sucessfully a token ( Jwt Authetication Method ) is generated for that specific user 
         with the help of the token only he/she can add their Tasks for the day.

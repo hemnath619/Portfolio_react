@@ -11,7 +11,11 @@ const Navbar = () => {
 
             <div className='navheader'>
 
-                <MdAllInclusive className='logo' />
+                <MdAllInclusive className='logo' 
+                    onClick={() => {
+                    const element = document.getElementById('head')
+                    element.scrollIntoView({ behavior: 'smooth' })
+                }}/>
 
                 <p className='item1 item' onClick={() => {
                     const element = document.getElementById('head')
