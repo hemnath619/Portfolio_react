@@ -2,7 +2,10 @@ import React from 'react';
 import "./home.css";
 
 const About = () => {
-  return (
+  return (<>
+
+    <div className='aboutmain'>
+
     <div id="about" className='aboutcontainer'>
 
       <div className='aboutcontent'>
@@ -19,7 +22,8 @@ const About = () => {
       </div>
 
     </div>
-  )
+    </div>
+    </> )
 }
 
 export default About

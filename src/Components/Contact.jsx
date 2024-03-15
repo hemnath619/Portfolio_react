@@ -14,7 +14,7 @@ const Contact = () => {
 
 
       <div className='contactcontent'>
-        <div className='cont1'> <p >Contact Me</p> </div>
+        <div className='cont1'> <p >Contact</p> </div>
         <div className='cont2'> <p>You can contact me on social networks...</p> </div>
       </div>
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import "./home.css";
 import image1 from "../Assets/1.png";
+import { TfiAngleDoubleRight } from "react-icons/tfi";
+
 
 
 const Portfolio = () => {
@@ -11,21 +13,39 @@ const Portfolio = () => {
 
      <div className='portfoliohead'><p>PROTFOLIO</p></div>
 
-      <div className='portfoliocontent'>
-        <img src={image1}/>
-        <p className='text'><p className='texthead'>Todo App</p>This Todo App is my first project in which a User is signedin first and 
-        those users data is hashed in MongoDb for data security and can Log into the web app using username and password. 
-        Once the User is Logged in sucessfully a token ( Jwt Authetication Method ) is generated for that specific user 
-        with the help of the token only he/she can add their Tasks for the day.
-        they have their controls on the added task's like edit the task and save it further
-        they can also remove the task once they have completed them. These CRUD ( CREATE, READ, UPDATE, DELETE ) operations
-        can only be performed by the user if he/she has a valid token and those are acheived by MERN Stack,
-         Frontend is handled by React Js and Backend is handled by MongoDb,
-        those two ends's are interconnected by Express JS(Nodejs).
-        </p>
+        <div className='wrapper'>
+                <div className='portimage'>
+                  <img src={image1}/>
+                  <div className='portcontent'>
+                    <h1>Todo App</h1>
+                    <p>
+                      <ul>
+                        <li>Login to the App using his/her credidentials, if you are new please signup first.</li>
+                        <li>A unique token is generated after sucessfull login.</li>
+                        <li>Now he/she can add their todo's of the day.</li>
+                        <li>JWT Authentication is included in this project in which loggedin user is only authorised to per the below task</li>
+                        <li>User has the control to edit and delete the todo's when completed.</li>
+                        <li>The todo's are stored in MongoDb database.</li>
+                      </ul>
+                    </p>
+
+                    <a href = "https://github.com/hemnath619" target='blank'><TfiAngleDoubleRight className='knowmore'/></a>
+                    
+                    </div>
+                </div>
+              </div>
+
       </div>
 
-     </div>
+
+   
+    
+      
+     
+
+
+    
+
 
 </>)
 }
